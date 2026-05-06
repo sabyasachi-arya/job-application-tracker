@@ -1,16 +1,16 @@
-# Job Application Tracker — Setup Guide
+# Job Application Tracker Setup Guide
 
 # 💼 Job Application Tracker
 
-A Windows desktop app to track job applications — built with Python and Tkinter.
+A Windows desktop app to track job applications built with Python and Tkinter.
 Connects directly to an Excel file. No database, no internet, works 100% offline.
 
 ## Features
 - ➕ Add applications with auto-assigned ID and date picker
 - 🔍 Search applications by date
-- 📊 View all applications in a live table — click any row to Edit or Remove
+- 📊 View all applications in a live table  click any row to Edit or Remove
 - 📈 Analytics dashboard with counts by website and recruitment stage
-- 💾 All changes save directly to Excel — no import/export ever
+- 💾 All changes save directly to Excel no import/export ever
 
 ## Screenshots
 <!-- Add screenshots here after uploading them -->
