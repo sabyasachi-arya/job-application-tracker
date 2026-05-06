@@ -1,5 +1,36 @@
 # Job Application Tracker — Setup Guide
 
+# 💼 Job Application Tracker
+
+A Windows desktop app to track job applications — built with Python and Tkinter.
+Connects directly to an Excel file. No database, no internet, works 100% offline.
+
+## Features
+- ➕ Add applications with auto-assigned ID and date picker
+- 🔍 Search applications by date
+- 📊 View all applications in a live table — click any row to Edit or Remove
+- 📈 Analytics dashboard with counts by website and recruitment stage
+- 💾 All changes save directly to Excel — no import/export ever
+
+## Screenshots
+<!-- Add screenshots here after uploading them -->
+
+## Tech Stack
+- Python 3.x
+- Tkinter (GUI)
+- openpyxl (Excel read/write)
+- PyInstaller (builds to .exe)
+
+## How to Run
+
+### Option A — Run with Python
+```bash
+pip install openpyxl
+python app.py
+```
+
+### Option B — Build as .exe
+
 ## What's in this folder
 
 | File | Purpose |
@@ -7,7 +38,7 @@
 | `launcher.py` | Entry point — auto-connects to Excel on first launch |
 | `app.py` | Main application code |
 | `build.bat` | One-click script to build `JobApplicationTracker.exe` |
-| `Job-application-tracksheet.xlsx` | Your Excel data file |
+| `Job-application-tracksheet.xlsx` | Excel data file |
 
 ---
 
@@ -24,6 +55,7 @@
 
 1. Put all 4 files above **in the same folder** on your PC
 2. Double-click **`build.bat`**
+3. If build.bat crashes or does not work then run diagons.bat
 3. A black window opens — wait 1–2 minutes
 4. When done you'll see a **`dist\`** folder appear
 
