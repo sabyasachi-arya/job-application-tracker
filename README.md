@@ -69,8 +69,10 @@ Inside `dist\` you'll find:
 
 1. Open the `dist\` folder
 2. Double-click **`JobApplicationTracker.exe`**
-3. ✅ The app opens **already connected** to your Excel file — no setup needed
-
+3.Then run `dist/JobApplicationTracker.exe`
+## Usage
+A. On first launch, click **Browse** → select `Job-application-tracksheet.xlsx` → **Connect**
+B. The app remembers the file path. Every edit saves automatically.
 ---
 
 ## Rules to keep it working
@@ -120,3 +122,14 @@ Make sure the Excel file is **not open in Microsoft Excel** at the same time as 
 
 **"Python not found" when running build.bat:**
 Re-install Python from python.org and make sure you ticked **"Add Python to PATH"** during install.
+
+Screenshots:
+
+<img width="1920" height="1032" alt="Project Image 6" src="https://github.com/user-attachments/assets/36e68ebd-0b8b-4c16-af23-de88e0c309a0" />
+
+<img width="1918" height="1030" alt="Project Image 6-1" src="https://github.com/user-attachments/assets/984bba29-094d-4094-b0da-be12768b0aba" />
+
+<img width="1920" height="1031" alt="Project Image 6-2" src="https://github.com/user-attachments/assets/6be6497f-80d9-489a-8378-e0e74a739cc6" />
+
+
+
